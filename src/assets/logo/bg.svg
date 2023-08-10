@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 280 280">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_未命名的渐变_5);
+      }
+
+      .cls-2 {
+        fill: url(#_未命名的渐变_8);
+      }
+
+      .cls-3 {
+        fill: url(#_未命名的渐变_47);
+      }
+
+      .cls-4 {
+        fill: url(#_未命名的渐变_7);
+      }
+    </style>
+    <linearGradient id="_未命名的渐变_5" data-name="未命名的渐变 5" x1="0" y1="46.67" x2="93.33" y2="46.67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#49c7ff"/>
+      <stop offset="1" stop-color="#916bfe"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_7" data-name="未命名的渐变 7" x1="186.67" y1="46.67" x2="280" y2="46.67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#847bfe"/>
+      <stop offset="1" stop-color="#906cfe"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_47" data-name="未命名的渐变 47" x1="186.67" y1="233.33" x2="280" y2="233.33" gradientUnits="userSpaceOnUse">
+      <stop offset=".28" stop-color="#8e6efe"/>
+      <stop offset=".46" stop-color="#9861fe"/>
+      <stop offset=".85" stop-color="#ad48fe"/>
+    </linearGradient>
+    <linearGradient id="_未命名的渐变_8" data-name="未命名的渐变 8" x1="0" y1="233.33" x2="93.33" y2="233.33" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#817ffe"/>
+      <stop offset="1" stop-color="#9c5dfe"/>
+    </linearGradient>
+  </defs>
+  <g id="_图层_1-2" data-name="图层 1">
+    <path class="cls-1" d="M93.33,9.06v.54c0,5-4.06,9.06-9.06,9.06H28.66c-5,0-9.06,4.06-9.06,9.06v56.54c0,5-4.06,9.06-9.06,9.06h-1.48C4.06,93.33,0,89.28,0,84.27V9.06C0,4.06,4.06,0,9.06,0H84.27C89.28,0,93.33,4.06,93.33,9.06Z"/>
+    <path class="cls-4" d="M270.94,93.33h-.54c-5,0-9.06-4.06-9.06-9.06V28.66c0-5-4.06-9.06-9.06-9.06h-56.54c-5,0-9.06-4.06-9.06-9.06v-1.48c0-5,4.06-9.06,9.06-9.06h75.21c5,0,9.06,4.06,9.06,9.06V84.27c0,5-4.06,9.06-9.06,9.06Z"/>
+    <path class="cls-3" d="M186.67,270.94v-.54c0-5,4.06-9.06,9.06-9.06h55.61c5,0,9.06-4.06,9.06-9.06v-56.54c0-5,4.06-9.06,9.06-9.06h1.48c5,0,9.06,4.06,9.06,9.06v75.21c0,5-4.06,9.06-9.06,9.06h-75.21c-5,0-9.06-4.06-9.06-9.06Z"/>
+    <path class="cls-2" d="M9.06,186.67h.54c5,0,9.06,4.06,9.06,9.06v55.61c0,5,4.06,9.06,9.06,9.06h56.54c5,0,9.06,4.06,9.06,9.06v1.48c0,5-4.06,9.06-9.06,9.06H9.06c-5,0-9.06-4.06-9.06-9.06v-75.21c0-5,4.06-9.06,9.06-9.06Z"/>
+  </g>
+</svg>

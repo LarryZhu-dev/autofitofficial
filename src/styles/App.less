@@ -1,0 +1,159 @@
+.logoBox {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+.scrollView {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.readmebtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.logo {
+  filter: blur(72px);
+  background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  will-change: filter;
+  transition: filter 300ms;
+  height: 100%;
+  opacity: 0;
+  animation: blinklight 1.6s forwards ease-in-out;
+  animation-delay: 1.4s;
+  @keyframes blinklight {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+.logoImg {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  &.text {
+    height: 47%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 0% 0%;
+    z-index: 9;
+    animation: blowUp 1.6s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+  &.bg {
+    animation: blowUp 1.6s ease-in-out forwards;
+    transform-origin: 0% 0%;
+    opacity: 0;
+  }
+  @keyframes blowUp {
+    0% {
+      transform: scale(0.1) translate(-50%, -50%);
+      opacity: 0;
+    }
+    80% {
+      transform: scale(0.1) translate(-50%, -50%);
+      opacity: 0;
+    }
+    90% {
+      transform: scale(1.1) translate(-50%, -50%);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1) translate(-50%, -50%);
+      opacity: 1;
+    }
+  }
+}
+.title {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out forwards;
+  animation-delay: 1.8s;
+}
+.card {
+  padding: 2em;
+  p {
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards;
+    animation-delay: 2s;
+  }
+  button {
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards;
+    animation-delay: 2.2s;
+  }
+}
+.icon-githublogo {
+  transition: 0.2s;
+}
+.read-the-docs:hover .iconfont {
+  color: #47caff;
+}
+.read-the-docs:hover {
+  color: #ddd;
+}
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  > div a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    .iconfont {
+      font-size: 16px;
+    }
+    background: #333;
+    padding: 2px 10px;
+    border-radius: 6px;
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards;
+    animation-delay: 2.2s;
+  }
+  .githubStar:hover .iconfont {
+    color: #eee;
+  }
+  .npmDownload .iconfont {
+    font-size: 18px;
+  }
+  .npmDownload:hover .iconfont {
+    color: #d94949;
+  }
+  .juejin .iconfont {
+    font-size: 14px;
+  }
+  .juejin:hover .iconfont {
+    color: #1e80ff;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

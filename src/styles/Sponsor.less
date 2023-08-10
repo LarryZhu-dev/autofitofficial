@@ -1,0 +1,63 @@
+.Sponsor {
+  min-height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .title {
+    font-size: 32px;
+  }
+  .SponsorList {
+    display: grid;
+    flex: 1;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(5, 20%);
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    .SponsorItem {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      cursor: pointer;
+      img {
+        width: 40%;
+        border-radius: 50%;
+      }
+    }
+  }
+  .openPayWaysBtn {
+    padding: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+      color: #636bfd;
+    }
+  }
+  .payWays {
+    position: absolute;
+    padding: 20px;
+    transition: 0.2s;
+    display: flex;
+    background: #3c4043;
+    border-radius: 6px;
+    .payWaysItem {
+      display: flex;
+      flex: 1;
+      a {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 25%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
